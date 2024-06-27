@@ -1,0 +1,5 @@
+print('====Exercício 002=====')
+nome = input('Digite seu nome:')
+print('Prazer em te conhecer', nome, '. Seja bem-vindo(a)!')
+print('Tbm tem uma forma de colocar as variáveis de forma de formatação com chaves e depois coloque um ponto final depois das aspas e format(nome da variável)')
+print('Seja bem-vindo(a) {}. É um prazer te conhecer'.format(nome))
