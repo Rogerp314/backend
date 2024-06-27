@@ -1,0 +1,7 @@
+print('=====Um pequeno teste=======')
+nome=input('Qual o seu nome?')
+idade=input('Qual a sua idade?')
+soma=input('Quanto é 2+2?')
+num1=input('Escolha um número:')
+num2=input('Escolha um outro número:')
+print('Seu nome é',nome,'tem',idade,'anos e a soma deu',soma,'e com isso os números escolhidos são',num1,'e',num2,'.')
