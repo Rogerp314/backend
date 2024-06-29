@@ -1,0 +1,46 @@
+==========Tipos Primitivos de Dados====================
+
+Mesmo digitando um número em um input ainda é considerado uma string, sendo assim o número digitado é lido como texto (string).
+Para resolver esse problema temos o primeiro tipo primitivo sendo ele o 'int()' que tudo que esta dentro dos parenteses é "transformado" em um número INTEIRO, por isso a sigla é int.
+
+Versão do código sem o primeiro tipo primitivo:
+
+num1=input('Digite um número qualquer')
+num2=input('Digite um outro número')
+print(num1 + num2)
+
+Obs: Com esse código a resposta é a contatenasão entre os números digitados.
+
+Versão do código com o primeiro tipo primitivo:
+
+num1 = int(input('Digite um número qualquer: '))
+num2 = int(input('Digite um outro número: '))
+soma = num1 + num2
+print('A soma entre {} e {}'.format(num1, num2),'é',soma) Obs: Ultilizei as duas formas de mostrar uma string.
+
+Os 4 tipos básicos de tipos primitivos em Python:
+
+int ==> Valores/números inteiros (Valores como: 7, 6, -13, -4...)
+float ==> Valores/números reais ou de ponto flutuante (Valores como: -12.4, 3,4, 3,14... e 7.0)
+bool ==> Valores/números lógicos ou buleanos (Esse tipo primitivo só aceita os valores: True ou False, Obs: escrever os valores como estão escritos aqui.)
+str ==> Valores/números caractéres ou string (São valores de "leitura", ou seja, são valores que estão entre as aspas, '-6.7', 'Olá, Mundo!' e etc... Valores que aparecem em tela.)
+
+Obs: Todos os tipos primitivos seguem a mesma lógica de funcionamento do int()
+
+Para saber qual é a classe de um tipo primitivo do valor é só digitar 'type(a variável que queira saber o valor)' como:
+
+n1 = input('Digite um número para saber seu tipo primitivo: ')
+print('O valor digitado tem o tipo {}'.format(type(n1)))
+
+Obs: Sendo assim pode ser notar que deve ser declarada a classe do tipo primitivo para determinadas finalidades, por padrão o valor vem string.
+
+Se eu colocar em uma variável explicitamente sua classe como por exemplo o tipo float, ele mostrara na print() o valor numérico com um ponto flutuante:
+
+Ex: n = float(input('Digite um valor: ))
+    *valor digitado igual 4*
+    print(n)
+    valor mostrado: 4.0
+
+No caso do bool, ele dara o resultado 'True' se existir um valor dentro da variável, caso contrário ele mostrará 'False'
+
+Se quiser confirmar o que cada valor é, use a propriedade 'isnumeric'

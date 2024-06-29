@@ -1,0 +1,28 @@
+===========Conhecimentos Básicos de Python=============
+
+Toda mensagem de texto deve estar entre aspas simples ou dupla, mas o recomendado é em aspas simples.
+O a função que faz aparecer algo na tela é o 'print()', sendo que TODA FUNÇÂO tem que ter dois parenteses. Sendo um de abertura e um de fechamento.
+Para fazer uma pequena interatividade com o usuário/sistema se usa a função 'input()', que da a liberdade de digitar algo.
+
+E para onde vai o que foi digitado?
+
+Se não houver uma VARIÁVEL ela simplismente se perde, sendo assim tem que haver uma variável. E para declarar uma varável é simples
+Somente coloque o nome que quiser para a variável como (Ex: nome), e de um espaço entre o sinal de igual (=), que tem que ser lido como 'recebe' e depois mais um espaço entre o sinal de igual (=) o valor que deseja para a variável, sendo assim no final ficará:
+
+nome = input(valor que quiser)
+
+Obs: O espaçamento serve para deixar o código limpo.
+
+Valores que estão entre aspas são valores de "leitura" e valores que estão sem aspas são valores que servem para calculo, números.
+
+Outro jeito de exibir a print:
+
+Ao invés de digitar a print assim:
+
+print('Olá, Mundo!')
+
+Que funciona eu posso fazer com que a palavra 'Mundo' esteja dentro de uma variável, sendo assim para mostrar o valor da variável é só digitar um '.format(nome da variável)' entre os parenteses e o ponto não deve haver espaços, se quiser mais de uma variável é só colocar em ordem respectiva.
+
+O jeito comum de se escrever é usando aspas em texto e quando deseja mostrar uma variável ou um valor de calculo entre eles usase vírgulas (,):
+
+print('O valor do primeiro valor é',n1)    Obs: Sendo n1 uma variável qualquer.
