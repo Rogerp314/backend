@@ -1,0 +1,41 @@
+======Operadores Aritiméticos======
+
+Os operadores Aritiméticos são os calculos de matemática como:
+
+Obs: Para calculos com operadores Aritiméticos só pode o uso de números ou variáveis que contém números. E os operadores são operadores binarios, que precisam de dois operanos.
+
+Adição(+)
+Subtração(-)
+Produto(*)
+Divisão(/)
+Potência(**)
+Divisão Inteira(//)
+Resto da divisão(%)
+Radiciação(qualquer número**(1/2))
+
+Obs: Se quiser calcular raizes maiores que o quadrado é só mudar o denominador.
+
+Ordem de Presendencia:
+
+Obs: De forma simples é de dentro para fora.
+
+Primeiro lugar: Os parenteses (). No Python só existe o uso de () para calculos, sendo assim se resolve de dentro para fora.
+Segundo lugar: Potência **.
+Terceiro lugar: *, /, //, %. Todos tem a mesma importância, sendo assim fazer um primeiro que o outro não mudara nada. Resolva quem aparecer primeiro.
+Quarto lugar: +, -;
+
+Obs: Matemática básica.
+Uma das coisas mais fodas no Python é que o limite do tamanho do número é o limite da memória.
+
+Pode fazer a potência de uma outra forma, sendo ela:
+
+pow(4,5) == 4**5
+
+Se quiser usar os operadores em string, dá porem com outro significado, sendo eles:
+(+): Concatenação
+(*): Multiplicar a string em quantas vezes colocou (Ex: 'OI' * 3 == OIOIOI)
+Da para colocar dentro de uma máscara o sinal {:> ou < ou ^} e o número de caracteres de espaço.
+O > serve para alinhar a esquerda, o < serve para alinhar a direita e o ^ serve para alinhar ao centro.
+Depois dos dois pontos (:) se colocar qualquer caractere ele substituira o espaço pelo caractere escolhido
+Se eu quiser mostrar tantas casas decimais depois do ponto flutuante é só colocar {:.quantas casas.f}
+Para um print não quebrar a linha pode se usar o comando ", end = ''" antes do parenteses de fechamento do print para continuar a linha sem quebrar. E por outro lada se  quiser quebrar a linha é só colocar o comando "/n" no local que queira quebrar.
