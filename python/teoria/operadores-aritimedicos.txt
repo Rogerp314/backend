@@ -39,3 +39,6 @@ O > serve para alinhar a esquerda, o < serve para alinhar a direita e o ^ serve 
 Depois dos dois pontos (:) se colocar qualquer caractere ele substituira o espaço pelo caractere escolhido
 Se eu quiser mostrar tantas casas decimais depois do ponto flutuante é só colocar {:.quantas casas.f}
 Para um print não quebrar a linha pode se usar o comando ", end = ''" antes do parenteses de fechamento do print para continuar a linha sem quebrar. E por outro lada se  quiser quebrar a linha é só colocar o comando "/n" no local que queira quebrar.
+Obs: Se quiser da para fazer a raiz quadrada ou qualquer outra raiz de uma forma com o 'pow' escrevendo assim:
+pow(base, expoente sendo (1/2, ou 1/3 e assim por diante))
+Em aredondamento o Python faz para cima, ou seja, um número que seja 3,75 passa a ser 3,8.
