@@ -42,3 +42,4 @@ Para um print não quebrar a linha pode se usar o comando ", end = ''" antes do 
 Obs: Se quiser da para fazer a raiz quadrada ou qualquer outra raiz de uma forma com o 'pow' escrevendo assim:
 pow(base, expoente sendo (1/2, ou 1/3 e assim por diante))
 Em aredondamento o Python faz para cima, ou seja, um número que seja 3,75 passa a ser 3,8.
+Na ordem de exibição dos dados no método format() pode colocar nada nas chaves '{}' ou se quiser colocar a seguencia começando no 0 para manipular a ordem ao inves de colocar na forma tradicional.
