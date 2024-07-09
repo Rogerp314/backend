@@ -1,0 +1,30 @@
+==================== Trabalhando com Módulos =======================
+
+Módulos são extensões que pode se colocar no Python, e essas extensões estão em uma biblioteca. Importação é o nome dado para o ato de pegar uma extensão e importar para o programa.
+Para importar alguma funcionalidade de uma biblioteca no Python, usa-se o comando 'import', esse comando é feito nas primeiras linhas ou se não na primeira linha do programa. Quando escrito o comando 'import' somente o Python pega todos os itens da biblioteca, mas tem como pegar somente coisas específicas? SIM, no comando básico, sendo ele 'import "a biblioteca que queira importar"' ele pega todos os itens da biblioteca, ou seja ele importa tudo da biblioteca, mas se digitar "from "nome da biblioteca" import 'item específico que queira importar'". O primeiro comando é geral e ocupa memória, enquanto o segundo comando ocupa muito menos memória e é bem específico.
+
+Um exemplo de biblioteca é a biblioteca 'math' que significa 'matemática' sendo sua funcionalidade trazer funções de cálculo um pouco mais específicas para contas como o arredondamento para cima 'ceil', 'floor' que arrendoda para baixo, 'trunc' que elimina os números depois da vírgula, 'pow' para calcular potência e a 'sqrt' que calcula raiz e tbm o 'factorial' que calcula fatoriais. Se quiser importar mais de uma função sem usar a biblioteca toda é só colocar vírgula entre as funções.
+
+
+Obs: A biblioteca 'math' já vem como padrão no Python porem tem que usar o comando 'import'. E para usar as funções da biblioteca tem que digitar o nome da biblioteca e depois colocar um '.' ponto e escolher a funcionalidade. Na hora de escolher a importação de uma maneira específica pode se usar o control + espaço. Sendo assim, quando ultilizado o comando 'from' não é mais necessário a ultilização do comando 'math.' por exemplo, pois a função importada já está direto na pasta.
+
+Como saber quais são as bibliotecas existentes e suas funcionalidades? É só ir no site 'python.org' e 'documentação' para achar as bibliotecas.
+
+Existe a biblioteca 'random' que gera números aleatórios e que seu comando para 'sortear' um número aleatório é:
+random.random()
+Obs: Esse comando gera números aleatórios entre 0 e 1
+Sendo assim para gerar números aleatórios entre números inteiros é com o comando:
+random.randint()
+Obs: Escolhendo da onde começa até onde termina o leque de probabilidades.
+
+============== Módulos a parte ==============================
+
+São módulos de biblioteca que não vem como padrão no python, sendo eles por exemplo: emoji, pandas, pyautogui e por ai vai.
+Para a intalação desses módulos podemos ultilizar o prompt de comando com o comando:
+'pip install "o nome da biblioteca que queira instalar"'
+Depois é somente importar com o comando 'import' para o arquivo que queira carregar.
+
+Obs: Para criar um lista em Python ultiliza-se '[]' e o que deseja colocar separando os itens por vírgulas.
+Na biblioteca random temos a funcionalidade 'random.choice' que escolhe aleatoriamente um item da lista, sendo assim se por um exemplo queira remover o item sorteado por ultimo da lista pode-se usar o comando 'nome da lista.remove(valor sorteado por ultimo)
+
+=================== HORA DOS DESAFIOSSSS =======================
