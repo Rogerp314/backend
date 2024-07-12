@@ -1,9 +1,12 @@
-import math
+from math import radians, sin, cos, tan
 
-anglo = float(input('Digite qualquer ângulo que queira: '))
-sen = math.sin(math.radians(anglo))
-cos = math.cos(math.radians(anglo))
-tg = math.tan(math.radians(anglo))
-print('O seno de {}° vale aproximadamente {}.'.format(anglo, sen))
-print('O cosseno de {}° vale aproximadamente {}.'.format(anglo, cos))
-print('A tangente de {}° vale aproximadamente {}.'.format(anglo, tg))
+an = float(input('Digite o valor do ângulo em graus: '))
+rad = radians(an)
+print('O seno de {} vale aproximadamente {:.2f}, o cosseno vale aproximadamente {:.2f} e a tangente vale aproximadamente {:.2f}.'.format(an, sin(rad), cos(rad), tan(rad)))
+
+
+
+
+
+#Obs: O Python só pode calcular seno, cosseno e tangente na unidade de radianos, por isto deve-se converter com a chamada do módulo 'math' .radians()
+#Eu fiz o exercício com menos variáveis possíveis.

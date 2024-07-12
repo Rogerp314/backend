@@ -28,3 +28,6 @@ Obs: Para criar um lista em Python ultiliza-se '[]' e o que deseja colocar separ
 Na biblioteca random temos a funcionalidade 'random.choice' que escolhe aleatoriamente um item da lista, sendo assim se por um exemplo queira remover o item sorteado por ultimo da lista pode-se usar o comando 'nome da lista.remove(valor sorteado por ultimo)
 
 =================== HORA DOS DESAFIOSSSS =======================
+
+
+Obs: No módulo random temos a declaração 'shuffle' para embaralhar os valores de uma lista.

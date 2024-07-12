@@ -13,4 +13,3 @@ num1 = random.random()
 print('O número que o computador escolheu foi {}'.format(num1))
 al = random.randint(1,10)
 print('Agora um número inteiro aleatório: {}'.format(al))
-
