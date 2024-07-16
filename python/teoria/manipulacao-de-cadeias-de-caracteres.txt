@@ -1,0 +1,97 @@
+============= Manipulação de cadeias de textos ou caractéres ==============================================
+
+Para as linguágens de programação uma cadeia de texto é uma frase, ou seja, uma string como:
+'Hello, world'
+Como no exemplo que dei aqui em cima, temos que toda string no python e nas linguas de programação em geral devem estar entre aspas simples ou dupla.
+Cada caractére da string é colocada em uma 'microespaço' da memória, sendo assim cada caractéres faz parte de um bit de informação.
+Com isso fica bem fácil fatear as strings
+
+Fatiamento:
+ Obs: Para o python toda a função que esta entre '[]' está numa lista
+
+Com isto temos que a frase numa variável:
+frase = 'Bom dia!'
+Se quisermos fatear a string de maneira que apareça somente 1 caractére de 7 usa-se o paramentro:
+print(frase[4])
+Para escrever na tela o 4 caractere dos 7. Sendo que o python começa a contar do 0.
+Outra maneira de fatiamento é:
+frase(3:7)
+Essa função faz com que o python mostre os caractéres do índice 3 ao 6, sendo assim ele exclui o último caractere.
+Sempre que quiser pegar uma cadeia de texto de determinadas quantidades de caractéres é só colocar um valor a mais que os caracteres da frase que queria mostrar.
+Outra maneira é colocando assim:
+frase[2:7:2]
+O último 2 do exemplo indica que é para pegar os caracteres 'pulando' de dois em dois e pegando o 'dois'.
+Outra maneira é:
+frase[:4]
+Isto é a mesmo coisa que: frase[0:4]
+Quando omitido o primeiro número o python entende que se deve começar do caractere 0. Anulando o número depois do dois pontos.
+O oposto disso é:
+frase[4:]
+Que indica o começo do fatiamento e omite o final, sendo assim temos que o python mostra do caractere 4 e vai até o fim da frase.
+Outra maneira é:
+frase[2::4]
+Isto indica que o 2 é o caractere de começo e o caractere de final está omitido pois ent temos que o python mostrara até o fim da cadeia de texto pulando de 4 em 4 caractéres.
+Análize:
+Esse método faz com que possoa analizar a cadeia de texto, como o tamanho da frase ou palavra, com que letra ela começa ou termina, se começa com a letra maiuscula ou miniscula e por ai vai.
+O comando para analizar o comprimento da cadeia de texto é 'len(a cadeia de texto que queira analizar)'
+Temos mais funções como:
+cadeia de texto que queira analizar.conut('caractere que queira saber quantas vezes aparece'); essa função serve para saber quantas vezes aparece na cadeia de texto o caractere entre os parenteses. Obs: No python existe a diferença entre os caracteres minúsculos e maiusculos.
+Da para fazer uma contagem de caractéres com fatiamento como:
+frase.count('o',0,13)
+Esse comando diz que o programa tem que contar quantos 'o' tem na cadeia de texto começando em 0 e indo até o 12.
+
+Temos outra função de analise, sendo ela o 'find' que sua funcionalidade é bem simples, por exemplo:
+frase.find('Bom')
+Esse comando mostra em que ponto da cadeia de texto a palavra entre aspas começou, ou seja, o resultado será 0, pois o 'B' começa na micro memória 0. Se colocar entre as aspas uma string que não exista na cadeia de texto, o python dara como resposta -1.
+Podemos tbm usar o operádor 'in' que é bem simples sua funcionalidade, sendo ela bem pratica:
+'Bom' in frase
+Com o comando a cima representa uma 'pergunta' que significa: "Existe a palavra 'Bom' na variável frase?
+Neste exemplo é verdade, ent terá como resposta um 'True', assim a função 'in' é boleano. Tendo como resposta 'True' ou 'False'.
+Obs: O in funciona como o find porem o find da a localização de onde começa a palavra na cadeia de texto enquanto o in tem sim ou não.
+
+Transformação:
+
+Por padrão não tem como mudar uma cadeia de string mas podemos ter algumas funcionalidades que mudam como:
+
+replace:
+Exemplo:
+frase.replace('Bom', 'Mal)
+Esse comando troca a primeira palavra entre as aspas pela segunda, sendo que 'replace' significa realocar, trocar.
+
+upper():
+Esse método faz com que toda a cadeia de texto fique em letras maiúsculas, exemplo:
+frase.upper()
+
+lower():
+É o contrário do upper(), ele deixa todas as letras da cadeia de texto em minúsculas.
+
+capitalize():
+Ele transforma todas as letras em minúsculas e 'capitaliza', ou seja, todas as letras ficaram em minusculas e somente a primeira letra da primeira palavra da cadeia ficará em maiusculo.
+
+title():
+Esse metodo faz com que todas as primeiras letras de todas as palavras da cadeia de texto estejam em maiúsculas.
+
+strip():
+Esse método serve para tirar espaços desnecessários na cadeia de texto como:
+frase = '  Bom dia!  '
+frase.strip()
+return ===> 'Bom dia!'
+Temos tbm o 'rstrip()' que tem a mesma funcionalidade que o 'strip()' normal mas o 'r' é de rigth, ou seja, ela vai tirar apenas os espaços desnecessários e o lstrig() tem a mesma lógica mas para a esquerda.
+
+Divisão:
+
+O comando 'slit()' faz com que uma cadeia de texto seja dividina nos espaços formando assim novas cadeias com esses espaços.
+E cada palavra que está em uma nova cadeia recepe um indice.
+
+Junção:
+
+Como a funcionalidade '.join()' antes do ponto coloca-se o caractéres que queira juntar as palavras como '-'
+Sendo assim ficaria:
+
+'-'.join(frase) ===> Bom-dia!
+
+Obs: Se existeir um texto grande e não quiser colocar '\n' para quebrar as linhas ou colocar cada linha em um print, pode-se usar aspas triplas:
+"""Texto genério grande (como o Lorem)"""
+
+Tudo no Python é orientada a objetos, sendo assim da para colocar tudo com um ponto no final. Assim dá para juntar todas as funcionalidades de uma só vez.
+A única forma de mudar um string é fazendo a ela uma atribuição.
