@@ -1,2 +1,5 @@
-nome = input('Digite seu nome completo: ')
-print('Seu primeiro nome é {} e seu último nome é {}'.format(nome.split()[0], nome.split()[]))
+nome = input('Digite seu nome completo: ').title().strip()
+divi = nome.split()
+print('Muito prazer te conhecer!')
+print('O seu primeiro nome do usuario e {}'.format(divi[0]))
+print('O seu ultimo nome e {}'.format(divi[len(divi)-1]))

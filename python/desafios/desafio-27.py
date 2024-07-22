@@ -1,5 +1,4 @@
-frase = input('Escreva uma frase: ')
-print('A frase escrita a cima tem {} a.'.format(frase.count('a')))
-print('A letra a aparece a primeira vez na posição {}'.format(frase.find('a')))
-print('A última posição que a letra a aparece é {}'.format(frase.find))
-#Ainda n sei como saber a última posição da letra.
+frase = input('Digite uma frase: ').strip().lower()
+print('A letra A aparece {} vezes na frase;'.format(frase.count('a')))
+print('A letra A apareceu primeiro na posiçao {}.'.format(frase.find('a')+1))
+print('A ultima letra a aparece na posiçao {}.'.format(frase.rfind('a')+1))

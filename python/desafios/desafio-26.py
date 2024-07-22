@@ -1,2 +1,2 @@
-nome = input('Digite seu nome completo: ').strip().capitalize()
-print('Seu nome tem Silva? {}'.format('Silva' in nome))
+nome = input('Digite seu nome completo: ').strip().lower()
+print('Seu nome possui Silva? {}'.format('silva' in nome))
