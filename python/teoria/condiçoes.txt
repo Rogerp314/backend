@@ -1,0 +1,19 @@
+=============== CONDIÇOES ===================
+
+Codiçoes simples (Somente duas opçoes)
+If e else:
+As condiçoes sao feitas para a algoritmo ter mais de uma escolha sendo assim, temos o 'if' e o 'else', respectivamente servem para primeira opçao e faz o que tem quye fazer e seguir caminho ou senao temos o else para fazer a outra opçao proposta pelo programa. Os codigos de cada opçao deve ser indentados, ou seja, devem estar dentro do if ou do else, assim:
+começo do algoritmo
+if 'objeto'():
+    comandos para o if
+else:
+    comandos para o else
+fim do algoritmo
+
+Obs: Tudo que estiver indentado estara dentro do if ou do else e o contrario acontecera sempre que o programa for executado,  diferente das condiçoes. Se o if for verdade o else n vai ser executado, e vice-versa. O else n precisa explicitar o objeto pois ele esta ligado com o if assim ele ja sabe qual e o objeto
+
+Da para escrever as condiçoes de uma forma simplificada, sendo assim:
+print('OPÇAO1' if "condiçao do programa" else 'OPÇAO2') => O mesmo resultado do de cima.
+
+Se tiver mais de duas opçoes pode-se usar o metodo 'elif' para a terceira opçao, ela tem condiçoes que nem o if.
+Obs: Sempre o else e o ultimo, ou seja, sempre usara elif entre if e else.
