@@ -1,0 +1,34 @@
+============== Como Criar Telas Com o Tkinter =====================
+
+A principio deve-se criar uma janela que estaja vazia com o comando 'Tk()', para criar a janela começe com esse comando, e no final do cóidigo coloca-se o comando '"nome da variálvel que recebeu o .Tk()".mainloop()', esse comando serve para que depois que o Python ler todo o programa ele somente feche a janela, com esse comando ele deixa a janela aberta até o usuário fechar.
+Como mudar o título da janela:
+
+Para mudar o título da janela usa-se o comando 'variável.title('nome que quiser dar para a janela')'
+
+janela = Tk()
+janela.title('Exemplo')
+
+janela.mainloop()
+
+Obs: O tamanho da janela se adapta com o conteúdo.
+Como exibir um texto na janela:
+
+-Primeiro, cria-se uma variálvel que receba 'Label()', Label significa qualquer tipo de texto exibido em uma caixa.
+-Segundo, o comando Label() precisa que seja indentificado em que janela será exibido, por isso o comando fica assimm:
+janela = Tk()
+texto = Label(janela)
+-Terceiro, o Label(), alem de saber em que janela deve abrir ele precisa saber o texto:
+texto = Label(janela, text = 'exemplo')
+-Quarto, agora só falta posicionar o texto em algum local da janela, usando o '.grid(colum=0, row=0)', escolhendo a coluna e a linha do texto. TEm outros métodos de se fazer isto mas essa ja serve.
+
+Como criar um Botão no Tkinter:
+
+Usa-se o comando 'Button()' e os dois primeiros parametros são iguais a do texto/Label(), assim:
+botao = Button(janela, text='clique aqui', )
+Obs: Se eu quiser mostrar um programa inteiro em uma janela devo colocar esse mesmo programa dentro de uma função no Python assim na hora de colocar o command para exibir ele exibira a função denominada. Quando passar uma função como paramentro deve-se tirar os parenteses.
+O terceiro parametro é o que o botão vai fazer ao ser clicado com o comando command =:
+botao = Button(janela, text='clique aqui', command=função que tem o programa)
+
+Como colocar o programa que quero exibir dentro da janela
+
+Para isto faça um Label() que tenha o texto vazio.
