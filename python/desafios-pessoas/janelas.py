@@ -7,7 +7,6 @@ def fun():
     else:
         res = 'Seu nome não possui Silva.'
 
-
     texto_teste['text'] = res
 janela = Tk()
 janela.title('Janela de teste')

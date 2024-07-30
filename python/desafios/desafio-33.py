@@ -1,6 +1,10 @@
-ano = int(input('Em que ano estamos? '))
-bi = ano % 4
-if bi == 0:
-    print('Este ano e bisesto? SIM!!!')
+from datetime import date
+
+ano = int(input('Coloque o ano que queira analizar? Coloque 0 para saber do ano atual. '))
+if ano == 0:
+    ano = date.today().year
+
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print('O ano {} é bisesto? SIM!!!'.format(ano))
 else:
-    print('Este ano e bissesto? NAO!!!')
+    print('O ano {} é bisesto? NAO!!!'.format(ano))
