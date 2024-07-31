@@ -1,0 +1,10 @@
+=-=-=-=--=-=-=- FUNÇÔES -=-=-=-=-=-==-=--=
+
+Uma função é defenida pelos componeste:
+
+def: Essa palavra mostra que a linha está criando uma nova função
+nome da função: O nome da função serve para chamar ela em diferentes partes do código
+parametros(opicional): Serve para criar variaveis(objetos) para executar o bloco da função
+Corpo da função: O código que a função vai executar
+
+Uma função pode ser chamada em qualquer parte do código, para tratar ela como parametro não coloque (), se quiser somente chamr ela coloque ().
