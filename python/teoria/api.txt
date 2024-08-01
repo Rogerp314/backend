@@ -1,0 +1,4 @@
+=-=-=-=-=-=-=-=-=- API -=-=-=-=-=-=-=-=
+
+APIs nada mais nada menos que são 'pontes' de comunicação entre um sistema ou outro, como exemplo temos o facebook que da as informações de login para o usuário se cadastrar em um outro site de domínio diferente com a conta do facebook, sendo assim neste caso temos uma API que necessita de mais dados, ou seja, esse tipo de API fornece dados e emplementamos tbm, temos o twilio que é uma API de SMS que permite mandar SMS com código em Python. O outro tipo de API é a API que somente fornece dados como awesomeapi que fornece dados de cotações de moedas.
+Quando extraido os dados de uma API ela vem em json, pois esse formato é mais simples em questão de tráfegos de dados entre sites. Por isto temos que importar o módulo json e o módulo request

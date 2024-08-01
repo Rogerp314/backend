@@ -17,3 +17,5 @@ print('OPÇAO1' if "condiçao do programa" else 'OPÇAO2') => O mesmo resultado 
 
 Se tiver mais de duas opçoes pode-se usar o metodo 'elif' para a terceira opçao, ela tem condiçoes que nem o if.
 Obs: Sempre o else e o ultimo, ou seja, sempre usara elif entre if e else.
+
+Temos tbm condições aninhadas que são bem simples, ao ínves de ultilizar o 'elfi' podemos ultilizar o else normal que tem dentro dele outras opções, na verdade o elif em certos momentos são mais úteis que condições aninhadas, mas tudo depende do caso em específico.

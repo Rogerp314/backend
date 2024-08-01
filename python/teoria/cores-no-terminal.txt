@@ -8,7 +8,7 @@ Esse é um exemplo de código para colocar cores no terminal, ele não usa o hex
 
 Style: O estilo da fonte como negrito, italico e etc...
 Os que melhor funcionam para o Python no terminal são:
-0: nome (terminal padrão)
+0: none (terminal padrão)
 1: bold (texto em negrito)
 4: underline (sublinhado)
 7: negative (inverte as cores)
