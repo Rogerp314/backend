@@ -5,6 +5,8 @@ input('Vamos jogar jokenpo com o computador? Pressione a tecla ENTER para começ
 lista = ['pedra', 'papel', 'tesoura']
 jogador = input('Diga qual você escolheu: ').lower()
 pc = choice(lista)
+print('PROCESSANDO...')
+sleep(2)
 print('O computador escolheu {}'.format(pc.capitalize()))
 if pc == jogador:
     print('Vocês empataram.')

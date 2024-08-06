@@ -1,0 +1,10 @@
+import sys
+
+if hasattr(sys, 'real_prefix') or (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix):
+    print("O programa está sendo executado em um ambiente virtual.")
+else:
+    print("O programa NÃO está sendo executado em um ambiente virtual.")
+
+
+O atributo hasattr serve para verificar se existe um atributo ou não, neste caso:
+A verificação existe pois está sendo verificado se existe os atributos 'real_prefix' e 'base_prefix' para saber se o programar está sendo rodado em um ambiente virtual ou não.

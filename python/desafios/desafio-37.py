@@ -6,7 +6,8 @@ anos_parcela = int(input('Em quantos anos vai querer parcelar: '))
 
 prestação = valor_casa / (anos_parcela * 12)
 taxa_limite = salario * 30/100
-if prestação > taxa_limite:
+if prestação >= taxa_limite:
+    print('O valor da parcela por mês é de R${:.2f}.'.format(prestação))
     print('Me desculpe mas não podemos aceitar a oferta, pois o valor da prestação está comprometendo sua renda em mais de 30%.')
 else:
     print('Meus parabéns! O valor da prestação será de R${:.2f} por mês.'.format(prestação))

@@ -12,6 +12,5 @@ elif idade <= 19:
     print('JÚNIOR')
 elif idade <= 20:
     print('SENIOR')
-
 else:
     print('MASTER')
