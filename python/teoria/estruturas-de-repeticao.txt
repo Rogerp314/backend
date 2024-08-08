@@ -1,0 +1,25 @@
+============================= ESTRUTURAS DE REPETIÇÂO =============================
+
+Caso de laço de repetição simples:
+O comando de laço de repetição serve para executar partes do programa que são repetitivos para poupar tempo. Para o algoritmo não ficar se repitindo para sempre se coloca um 'limite' que é um parametro de quantas vezes ira se repetir esse laço. O limite pode ser como exemplo:
+repita o cadastro 10 vezes, sendo assim o algoritmo vai executar o processo de repetição 10 vezes e em seguida seguirá o caminha do programa.
+Obs: O nome desse laço de repetição é 'Laço de variável de controle'.
+Exemplo em Python:
+
+for c in range(1,10):
+    print('CADASTRADO')
+print('Fim do programa)
+
+Esse comando funciona assim, entre os parenteses temos o intervalo de repetição, nesse caso é de 1 à 10, ou seja, será repetido 10 vezes o comando indentado no for. O c é o índice (variável de controle) que começa com o valor igual ao começo do intervalo, e a cada repetição é somado ao c mais 1 até o valor de c ser igual ao limite do intervalo: c == 10 *Nesse caso. Obs: O Python no executa o limite, ou seja, ele não executa o 10 nesse caso.
+Pode juntar várias coisas para um objetivo em comum, como exemplo:
+for c in range(1,10):
+    if c == 5:  
+        print('NÂO CADASTRADO')
+    print('CADASTRO')
+print('FIM')
+
+Iteranção:
+
+A iteração é nada mais que o número somando com o c (nesse caso), por padrão é sempre 1, mas podemos mudar de uma forma:
+for c in range(6, 0, -1)
+Nesse caso o -1 é o número que será somado com o c.
